@@ -1,0 +1,89 @@
+.container-box {
+  width: 500px;
+  height: 500px;
+}
+
+.container-box > div {
+  background-color: blueviolet;
+  width: 25%;
+  height: 25%;
+  /* border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%; */
+}
+
+.box1 {
+  padding-left: 0;
+}
+
+.box2 {
+  padding-left: 25%;
+}
+
+.box3 {
+  padding-left: 50%;
+}
+
+.box4 {
+  padding-left: 75%;
+}
+
+.box1 > div,
+.box2 > div,
+.box3 > div,
+.box4 > div {
+  background-color: yellow;
+  width: 100%;
+  height: 100%;
+  border: 10px double blueviolet;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+/* .container-box2 > div {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+} */
+
+.box2_1 {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  padding-left: 0;
+}
+
+.box2_2 {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  padding-left: 100px;
+}
+
+.box2_3 {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  padding-left: 200px;
+}
+
+.box2_4 {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  padding-left: 300px;
+}
+
+.box2_1 > div,
+.box2_2 > div,
+.box2_3 > div,
+.box2_4 > div {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border: 5px solid;
+    border-top-color: blue;
+    border-right-color: blue;
+    border-bottom-color: white;
+    border-left-color: white;
+    box-sizing: border-box;
+}
